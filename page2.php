@@ -1,6 +1,5 @@
 
 <?php
-
 // Ambil data dari form
 $username = isset($_GET['username']) ? trim($_GET['username']) : '';
 $pass = isset($_GET['pass']) ? trim($_GET['pass']) : '';

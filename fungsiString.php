@@ -5,7 +5,4 @@
     echo strtolower($kalimat);
     echo ucfirst($kalimat);
     echo ucwords($kalimat);
-
-
-
 ?>

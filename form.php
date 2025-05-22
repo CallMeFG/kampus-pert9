@@ -28,19 +28,10 @@
 </body>
 </html>
 <?php
-    // if(isset($_POST['username']) && isset($_POST['pass'])) {
-    //     $username = $_POST['username'];
-    //     $pass = $_POST['pass'];
-
-    //     echo 'username: ' . $username . '<br>';
-    //     echo 'password: ' . $pass . '<br>';
-    // }
     if(isset($_POST['kirim'])) {
         $username = $_POST['username'];
         $pass = $_POST['pass'];
         echo 'username anda: ' . $username . '<br>';
         echo 'password anda: ' . $pass . '<br>';
     }
-
-
 ?>
